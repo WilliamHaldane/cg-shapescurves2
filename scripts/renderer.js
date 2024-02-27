@@ -183,7 +183,7 @@ class Renderer {
             this.drawLine(start, curPos, [1, 200, 95, 255], framebuffer);
             if (this.show_points) {
                 this.drawVertex(curPos, [1, 200, 95, 255], framebuffer);
-                this.drawVertex(start, [0, 255, 255, 255], framebuffer);
+                this.drawVertex(start, [1, 200, 95, 255], framebuffer);
             }
             start = curPos;
         }
