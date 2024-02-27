@@ -55,8 +55,8 @@ class Renderer {
         this.drawBezierCurve(bezier.p0, bezier.p1, bezier.p2, bezier.p3, this.num_curve_sections, [0, 0, 180, 255], framebuffer);
         this.drawBezierCurve(bezier1.p00, bezier1.p11, bezier1.p22, bezier1.p33, this.num_curve_sections, [0, 0, 180, 255], framebuffer);
 
-        this.drawLine(bezier.p0, bezier.p3, [0, 0, 255, 255], framebuffer);
-        this.drawLine(bezier1.p00, bezier1.p33, [0, 0, 255, 255], framebuffer);
+        // this.drawLine(bezier.p0, bezier.p3, [0, 0, 255, 255], framebuffer);
+        // this.drawLine(bezier1.p00, bezier1.p33, [0, 0, 255, 255], framebuffer);
     }
 
     // framebuffer:  canvas ctx image data
