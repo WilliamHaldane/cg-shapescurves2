@@ -227,8 +227,8 @@ class Renderer {
     drawVertex(v, color, framebuffer) {
         let size = 3;
     
-        this.drawLine({ x: v.x - size, y: v.y - size}, { x: v.x + size, y: v.y + size }, [1, 0, 80, 255], framebuffer);
-        this.drawLine({ x: v.x + size, y: v.y - size}, { x: v.x - size, y: v.y + size }, [1, 0, 80, 255], framebuffer);
+        this.drawLine({ x: v.x - size, y: v.y - size}, { x: v.x + size, y: v.y + size }, color, framebuffer);
+        this.drawLine({ x: v.x + size, y: v.y - size}, { x: v.x - size, y: v.y + size }, color, framebuffer);
     }    
     
     
